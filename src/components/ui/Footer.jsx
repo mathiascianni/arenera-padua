@@ -8,9 +8,9 @@ export default function Footer() {
                     <img src="/media/arenera-padua-logo-full.png" alt="Logo" className="mx-auto mb-4" />
                 </NavLink>
                 <ul className='space-y-2 mb-2'>
-                    <li>+54 11 9999 9999</li>
-                    <li>Acceso A Rafael Obligado, C1104 Cdad. Autónoma de Buenos Aires</li>
-                    <li>arenerapadua@gmail.com</li>
+                    <li><a href="https://wa.me/01136923474" target="_blank">📞 011 3692 3474</a></li>
+                    <li><a href="https://maps.app.goo.gl/2QY2JjF1h2juY8bB8" target="_blank">📌 Acceso A Rafael Obligado, C1104 Cdad. Autónoma de Buenos Aires</a></li>
+                    <li>✉️ arenerapadua@yahoo.com.ar</li>
                 </ul>
                 <div>
                     Redes Sociales

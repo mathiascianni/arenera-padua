@@ -27,34 +27,22 @@ html {
     scroll-behavior: smooth;
 }
 
-.mycontainer {
-    width: 100%;
-    max-width: 1274px;
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-  
-  @media (max-width: 576px) {
-    .mycontainer {
-      padding: 0 10px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .mycontainer {
-      padding: 0 20px;
-    }
-  }
-  
-  @media (max-width: 992px) {
-    .mycontainer {
-      padding: 0 30px;
-    }
-  }
-  
-  @media (max-width: 1200px) {
-    .mycontainer {
-      padding: 0 40px;
-    }
-  }
-  
+::selection {
+    color: #000000;
+    background: #FFCB3A;
+}
+
+::-webkit-scrollbar {
+    width: 6px;  
+    height: 6px; 
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: #c1c1c1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #475531;  
+}

@@ -10,7 +10,8 @@ export default {
         "primary": "#475531",
         "secondary": "#FFCB3A",
         "dark": "#1E1E1E",
-        "dark-light": "#686868"
+        "dark-light": "#686868",
+        "light": "#E4E4E4",
       },
       fontFamily: {
         "anton": ["Anton", "sans-serif"],

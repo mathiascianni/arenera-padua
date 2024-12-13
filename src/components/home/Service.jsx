@@ -1,14 +1,30 @@
 import { services } from "../../api/service"
-import ServiceCard from "../ServiceCard"
+import ServiceCard from "./ServiceCard"
+import { motion } from "motion/react"
+import { fadeInContainer, fadeInItem } from "../../api/animations"
+import { Title } from "../ui"
 export default function Service() {
+
     return (
         <section id="services" className="mb-40">
-            <h2 className="uppercase text-small lg:text-large font-anton text-center mb-12">¿Qué <span className="text-primary">servicios</span> ofrecemos?</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <motion.div
+                variants={fadeInItem}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}>
+                <Title hierachy="h2">El <span className="text-primary">proceso</span></Title>
+            </motion.div>
+            <motion.div
+                className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 gap-4"
+                initial="hidden"
+                whileInView="visible"
+                variants={fadeInContainer}
+                viewport={{ once: true }}
+            >
                 {services.map((service, index) => (
-                    <ServiceCard index={index} service={service} />
+                    <ServiceCard key={index} index={index} service={service} />
                 ))}
-            </div>
+            </motion.div>
         </section>
     )
 }
