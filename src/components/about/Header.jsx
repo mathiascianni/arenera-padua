@@ -3,7 +3,7 @@ import { slideInContainer, slideInItem } from "../../api/animations"
 
 const Header = () => {
     return (
-        <header className="min-h-screen bg-[url('./media/about-header.jpg')] bg-cover bg-center px-4 xl:px-2/12">
+        <header className="min-h-screen bg-[url('/media/about-header.jpg')] bg-cover bg-center px-4 xl:px-2/12">
             <motion.div
                 className="min-h-screen gap-6 flex flex-col justify-center text-large lg:text-[80px] 2xl:text-extra-large"
                 variants={slideInContainer}

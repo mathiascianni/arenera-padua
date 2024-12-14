@@ -53,7 +53,7 @@ const Navbar = () => {
           {navbarlinks.map((link) => (
             <li key={link.name}>
               <NavLink
-                className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-secondary after:w-full after:scale-x-0 after:-bottom-1 after:hover:scale-x-100 after:transition after:duration-500 after:origin-left"
+                className={`relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-secondary after:w-full after:scale-x-0 after:-bottom-1 after:hover:scale-x-100 after:transition after:duration-500 after:origin-left`}
                 to={link.link}
               >
                 {link.name}

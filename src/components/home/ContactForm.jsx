@@ -61,7 +61,7 @@ const ContactForm = () => {
 
   return (
     <section className="mb-16">
-      <div className="bg-[url('./media/gallery/atardecer-en-deltarena.jpeg')] bg-cover bg-center h-[780px] flex flex-row-reverse xl:flex-row">
+      <div className="bg-[url('/media/gallery/atardecer-en-deltarena.jpeg')] bg-cover bg-center h-[780px] flex flex-row-reverse xl:flex-row">
         <form onSubmit={handleSubmit} className="w-full max-w-[1255px] bg-white h-full ">
 
           <motion.div
