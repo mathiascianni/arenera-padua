@@ -3,7 +3,8 @@ const Input = ({label, type, id, icon, value, onChange}) => {
   return (
     <div className="relative w-full">
         <label htmlFor={id} className="sr-only">{label}</label>
-        <input 
+        <input
+        required
         type={type} 
         id={id} 
         value={value}

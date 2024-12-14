@@ -20,7 +20,7 @@ const BannerTitle = () => {
             >Extracción y comercialización de arena fina</motion.p>
             <motion.a
                 variants={slideInItem}
-                href="#services"
+                href="#process"
                 className="font-light text-lg lg:text-xl 2xl:text-2xl text-white bg-primary px-4 py-2 xl:py-4 xl:px-8 inline-block max-w-max rounded-md transition-colors hover:bg-secondary hover:text-dark"
             >Conocenos más &rarr;</motion.a>
         </motion.div>

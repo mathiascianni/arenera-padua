@@ -6,7 +6,7 @@ import { Title } from "../ui"
 export default function Service() {
 
     return (
-        <section id="services" className="mb-40">
+        <section id="process" className="mb-40">
             <motion.div
                 variants={fadeInItem}
                 initial="hidden"

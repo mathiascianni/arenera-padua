@@ -1,6 +1,7 @@
 const Textarea = ({ placeholder, id, value, onChange}) => {
   return (
     <textarea 
+    required
     placeholder={placeholder} 
     id={id} 
     value={value}

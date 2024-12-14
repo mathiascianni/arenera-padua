@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import { socials } from "../../api/socials"
 
 export default function Footer() {
     return (
@@ -12,9 +13,11 @@ export default function Footer() {
                     <li><a href="https://maps.app.goo.gl/2QY2JjF1h2juY8bB8" target="_blank">📌 Acceso A Rafael Obligado, C1104 Cdad. Autónoma de Buenos Aires</a></li>
                     <li>✉️ arenerapadua@yahoo.com.ar</li>
                 </ul>
-                <div>
-                    Redes Sociales
-                </div>
+                <ul className="flex justify-center space-x-4">
+                   {
+                       socials.map((social, index) => (<li key={index}><a href={social.url} target="_blank"><img src={`/icons/${social.icon}`} alt="" className="hover:scale-110 hover:-rotate-6 transition-all max-w-8 invert" /></a></li>))
+                   } 
+                </ul>
             </div>
             <div className="bg-dark text-dark-light text-center py-4">Castellani y Nocelli © 2024 - Todos los derechos reservados</div>
         </footer>
