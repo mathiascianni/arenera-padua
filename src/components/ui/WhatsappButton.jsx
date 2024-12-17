@@ -1,7 +1,7 @@
 export default function WhatsappButton() {
 
-    const phoneNumber = "01136923474";
-    const message = "Hola, ¿cómo puedo ayudarte?";
+    const phoneNumber = "+5401136923474";
+    const message = "Hola, ¿cómo podemos ayudarte?";
 
     return (
         <div className="fixed z-50 right-5 bottom-5">
